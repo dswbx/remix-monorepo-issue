@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
-import { someUtilFunction } from "@test/core/utils";
+import { someUtilFunction } from "@test/core";
 
 export const meta: MetaFunction = () => {
    return [

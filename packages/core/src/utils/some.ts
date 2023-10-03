@@ -1,3 +1,3 @@
 export function someUtilFunction() {
-   return "some util function";
+   return "some util... function";
 }

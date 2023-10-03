@@ -1,3 +1,3 @@
-import { someUtilFunction } from "@/utils";
+import { someUtilFunction } from "./src";
 
 console.log(someUtilFunction());
