@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
-import { someUtilFunction } from "@test/core";
+import { someUtilFunction, someRandomFunction, MyClass } from "core";
 
 export const meta: MetaFunction = () => {
    return [
@@ -9,10 +9,16 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
+   const a = new MyClass();
+   a.setProp(4);
+   a.incr();
+
    return (
       <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
          <h1>Welcome to Remix</h1>
          <span>{someUtilFunction()}</span>
+         <span>random number: {someRandomFunction()}</span>
+         <span>prop: {a.getProp()}</span>
          <ul>
             <li>
                <a

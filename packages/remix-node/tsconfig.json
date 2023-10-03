@@ -5,7 +5,7 @@
       "isolatedModules": true,
       "esModuleInterop": true,
       "jsx": "react-jsx",
-      "moduleResolution": "Bundler",
+      "moduleResolution": "node",
       "resolveJsonModule": true,
       "target": "ES2022",
       "strict": true,
@@ -14,7 +14,7 @@
       "baseUrl": ".",
       "paths": {
          "~/*": ["./app/*"],
-         "@test/core": ["../core/src"]
+         "core/*": ["../core/src/*"]
       },
 
       // Remix takes care of building everything in `remix build`.

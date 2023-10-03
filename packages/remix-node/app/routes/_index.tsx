@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
-import { someUtilFunction } from "@test/core";
+import { someRandomFunction, someUtilFunction } from "core";
 
 export const meta: MetaFunction = () => {
    return [
@@ -13,6 +13,7 @@ export default function Index() {
       <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
          <h1>Welcome to Remix123.....</h1>
          <span>{someUtilFunction()}</span>
+         <span>random number: {someRandomFunction()}</span>
          <ul>
             <li>
                <a

@@ -1,3 +1,3 @@
-import { someUtilFunction } from "@test/core";
+import { someUtilFunction } from "core";
 
 console.log(someUtilFunction());
