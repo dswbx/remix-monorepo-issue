@@ -6,7 +6,7 @@
    "type": "module",
    "private": true,
    "main": "dist/index.js",
-   "types": "src/index.ts",
+   "types": "dist/index.d.ts",
    "scripts": {
       "watch": "tsup --watch",
       "build": "tsup"

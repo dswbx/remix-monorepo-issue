@@ -15,7 +15,10 @@
       "baseUrl": ".",
       "paths": {
          "~/*": ["./app/*"],
-         "core/*": ["../core/src/*"]
+
+         // required so that types are resolved correctly
+         // but seems to work now without it
+         //"core/*": ["../core/*"],
       },
       "skipLibCheck": true,
 

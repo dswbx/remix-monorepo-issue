@@ -13,13 +13,13 @@ export function someRandomFunction() {
 export class MyClass {
    prop: number = 1;
    getProp(): number {
-      return this.prop + 61;
+      return this.prop + 62;
    }
    setProp(value: number) {
       this.prop = value;
    }
    incr() {
       this.prop++;
-      return this;
+      return 1;
    }
 }

@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
    const a = new MyClass();
-   a.setProp(4);
+   a.setProp(6);
    a.incr();
 
    return (

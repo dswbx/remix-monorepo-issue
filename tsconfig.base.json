@@ -12,5 +12,6 @@
          "core/*": ["../core/src/*"]
       }
    },
-   "references": [{ "path": "../core" }]
+   // not sure why it was necessary
+   //"references": [{ "path": "../core" }]
 }

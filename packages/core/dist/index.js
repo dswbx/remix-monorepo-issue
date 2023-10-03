@@ -15,14 +15,14 @@ function someRandomFunction() {
 var MyClass = class {
   prop = 1;
   getProp() {
-    return this.prop + 61;
+    return this.prop + 62;
   }
   setProp(value) {
     this.prop = value;
   }
   incr() {
     this.prop++;
-    return this;
+    return 1;
   }
 };
 export {

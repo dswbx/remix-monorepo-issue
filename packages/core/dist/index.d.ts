@@ -6,7 +6,7 @@ declare class MyClass {
     prop: number;
     getProp(): number;
     setProp(value: number): void;
-    incr(): this;
+    incr(): number;
 }
 
 export { MyClass, otherUtilFunction, someRandomFunction, someUtilFunction };
